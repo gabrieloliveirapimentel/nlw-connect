@@ -13,10 +13,11 @@ sudo systemctl start docker.service
 
 Após isso, inicie o container com o seguinte comando:
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 Para parar os serviços do Docker, utilize o comando abaixo.
 ```
 sudo systemctl stop docker.service
+sudo systemctl stop docker.socket
 ```
